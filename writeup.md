@@ -51,18 +51,14 @@ signs data set:
 
 #### 2. Include an exploratory visualization of the dataset.
 
-Below are exploratory visualization of the data set. Below is a picture collection for all classes.
-![avatar](/SavedImage/TrainSetVis.png)
-And a bar chart showing the train image number of each class. 
-![avatar](/SavedImage/DataDistribution.png)
+Below are exploratory visualization of the data set. Below is a picture collection for all classes.And a bar chart showing the train image number of each class.
+![avatar](/SavedImage/TrainSetVis.png)![avatar](/SavedImage/DataDistribution.png)
 
 ### Design and Test a Model Architecture
 
 #### 1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
 
-As a first step, I decided to convert the images to grayscale because grayscale is convenient to calculate the gradient and easy for processing.
-
-Here is an example of a traffic sign image before and after grayscaling.
+As a first step, I decided to convert the images to grayscale because grayscale is convenient to calculate the gradient and easy for processing.Here is an example of a traffic sign image before and after grayscaling.
 ![avatar](/SavedImage/SignRGB.png)   ![avatar](/SavedImage/SignGray.png)
 
 As a last step, I normalized the image data so that the data has mean zero and equal variance. 
