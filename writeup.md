@@ -54,9 +54,8 @@ signs data set:
 #### 2. Include an exploratory visualization of the dataset.
 
 Below are exploratory visualization of the data set. First fig is a picture collection for all classes, and the second picture is a bar chart showing the train image number of each class.
-
 ![avatar](/SavedImage/TrainSetVis.png)
-![avatar][/SavedImage/DataDistribution.png]
+![avatar][/SavedImage/DataDistribution.png)
 
 ### Design and Test a Model Architecture
 
@@ -65,9 +64,7 @@ Below are exploratory visualization of the data set. First fig is a picture coll
 As a first step, I decided to convert the images to grayscale because grayscale is convenient to calculate the gradient and easy for processing.
 
 Here is an example of a traffic sign image before and after grayscaling.
-
-![alt text][SignRGB]
-![alt text][SignGray]
+![avatar](/SavedImage/SignRGB.png)   ![avatar][/SavedImage/SignGray.png)
 
 As a last step, I normalized the image data so that the data has mean zero and equal variance. 
 
@@ -133,11 +130,11 @@ Here ajust the architeture by adding dropout layer in each converlution layer an
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
 Here are 12 German traffic signs that I found on the web:
+![avatar](/NewImage/3.png) ![avatar][/NewImage/11.png) ![avatar](/NewImage/12.png) 
+![avatar](/NewImage/13.png) ![avatar][/NewImage/14.png) ![avatar](/NewImage/17.png) 
+![avatar](/NewImage/18.png) ![avatar][/NewImage/25.png) ![avatar](/NewImage/38.png) 
+![avatar](/NewImage/36.png) ![avatar][/NewImage/34.png) ![avatar](/NewImage/37.png) 
 
-![alt text][NewImage/3.png]  ![alt text][NewImage/11.png] ![alt text][NewImage/12.png] 
-![alt text][NewImage/13.png] ![alt text][NewImage/14.png] ![alt text][NewImage/17.png]
-![alt text][NewImage/18.png] ![alt text][NewImage/25.png] ![alt text][NewImage/38.png] 
-![alt text][NewImage/36.png] ![alt text][NewImage/34.png] ![alt text][NewImage/37.png]
 
 The first image might be difficult to classify because this image is quite close to oher Speed limit sign, the misjudge could happen.The last image might also be difficult to classify, because this class has less train set than other type, which has a a big influence on training accuracy.
 
