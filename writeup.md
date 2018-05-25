@@ -36,7 +36,7 @@ The goals / steps of this project are the following:
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
-You're reading it! and here is a link to my [project code](https://github.com/XiangKe1015/German-Traffic-Sign-Classification/blob/master/Traffic_Sign_Classifier.ipynb)
+You're reading it! and here is a link to my [project code](https://github.com/XiangKe1015/German-Traffic-Sign-Classification/blob/master/Traffic_Sign_Classifier.ipynb).
 
 ### Data Set Summary & Exploration
 
@@ -134,7 +134,6 @@ Here are 12 German traffic signs that I found on the web:
 ![avatar](/NewImage/13.png) ![avatar](/NewImage/14.png) ![avatar](/NewImage/17.png) 
 ![avatar](/NewImage/18.png) ![avatar](/NewImage/25.png) ![avatar](/NewImage/38.png) 
 ![avatar](/NewImage/36.png) ![avatar](/NewImage/34.png) ![avatar](/NewImage/37.png) 
-
 
 The first image might be difficult to classify because this image is quite close to oher Speed limit sign, the misjudge could happen.The last image might also be difficult to classify, because this class has less train set than other type, which has a a big influence on training accuracy.
 
