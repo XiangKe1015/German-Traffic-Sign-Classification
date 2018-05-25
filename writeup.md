@@ -55,10 +55,8 @@ signs data set:
 
 Below are exploratory visualization of the data set. First fig is a picture collection for all classes, and the second picture is a bar chart showing the train image number of each class.
 
- ./SavedImage/TrainSetVis.png
-![alt text][SavedImage/TrainSetVis.png]
 ![avatar](/SavedImage/TrainSetVis.png)
-![alt text][DataDistribution]
+![avatar][/SavedImage/DataDistribution.png]
 
 ### Design and Test a Model Architecture
 
