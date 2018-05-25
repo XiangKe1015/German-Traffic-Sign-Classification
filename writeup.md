@@ -36,7 +36,7 @@ The goals / steps of this project are the following:
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
-You're reading it! and here is a link to my [project code](https://github.com/XiangKe1015/German-Traffic-Sign-Classification/upload/master)
+You're reading it! and here is a link to my [project code](https://github.com/XiangKe1015/German-Traffic-Sign-Classification/blob/master/Traffic_Sign_Classifier.ipynb)
 
 ### Data Set Summary & Exploration
 
@@ -55,7 +55,7 @@ signs data set:
 
 Below are exploratory visualization of the data set. First fig is a picture collection for all classes, and the second picture is a bar chart showing the train image number of each class.
 
-![alt text][TrainSetVis]
+![alt text][SavedImage/TrainSetVis.png]
 ![alt text][DataDistribution]
 
 ### Design and Test a Model Architecture
